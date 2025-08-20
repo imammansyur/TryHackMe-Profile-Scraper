@@ -1,8 +1,7 @@
-#!/bin/bash
-
-# Change to your github repo details
+:: Change to your github repo details
 git clone https://github.com/imammansyur/SecOps-Learning.git
 cd SecOps-Learning
+git pull
 
 python ../thm-scraper.py
 
